@@ -9,7 +9,7 @@ public class User {
         return id;
     }
 
-    public static void setId(Long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -17,7 +17,7 @@ public class User {
         return name;
     }
 
-    public static void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -25,7 +25,7 @@ public class User {
         return password;
     }
 
-    public static void setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 }
